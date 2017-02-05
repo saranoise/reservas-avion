@@ -1,0 +1,271 @@
+﻿/*=====================================
+   GENERAL STYLE SECTION
+    ===================================*/
+body 
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+  line-height:25px;
+}
+
+.text-center 
+{
+  text-align:center;
+}
+
+.sub-head 
+{
+  padding-bottom:50px;
+  display:block;
+}
+
+.pad-top-botm 
+{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+ /*=====================================
+  PRELOADER STYLES 
+    ===================================*/
+#pre-div 
+{
+  background-color: #fff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10000;
+}
+
+#loader 
+{
+  background-image: url("../img/loader.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 200px;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  position: absolute;
+  top: 50%;
+  width: 200px;
+}
+
+/*=====================================
+   NAV BAR STYLE SECTION
+    ===================================*/
+
+/*Menu border Color*/
+.navbar-default 
+{
+  border-color: #6d6b6b;
+  background-color:#6d6b6b;
+}
+/*Menú de navegación desplegable*/
+.navbar-collapse
+{
+  text-align: right;
+}
+/*top-menu links color*/
+.navbar-default .navbar-nav > li > a 
+{
+  color: #FFF;
+}
+/*top-menu links color hover*/
+.navbar-default .navbar-nav > li > a:hover 
+{
+  color: #4d4d4d;
+}
+/*top-menu links & margin*/    
+.navbar-nav > li > a 
+{
+  margin: 5px 0px 5px 0px;
+}
+
+/*=====================================
+ HOME
+    ===================================*/
+
+input {color: black}
+#home
+{
+  background: url(../img/head.jpg) no-repeat center center;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#home h1 
+{
+  padding:150px 20px 20px 0px;
+  color:#8cd0e2;
+  font-size:40px;
+  font-weight:900;
+}
+
+#home .head-text span >i 
+{
+  margin-right: 10px; 
+  color: #8cd0e2;
+}
+
+#home p 
+{
+  padding:10px 20px 20px 20px;
+  color:#fff;
+  font-size:16px;
+  line-height:20px;
+  font-weight:800;       
+  text-align:center;
+}
+
+#home .overlay 
+{
+  background:url(../img/overlays/06.png);        
+  min-height:700px;
+}
+
+.div-trans 
+{
+  padding-top: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 330px;
+  margin-top: 150px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.div-trans i 
+{
+  margin-left: 10px; 
+  margin-right: 10px; 
+  color: #8cd0e2;
+}
+
+.div-trans span 
+{
+  color: #8cd0e2;
+}
+
+.div-trans button 
+{
+  background-color: #8cd0e2;
+}
+
+#home .form-control 
+{
+  background-color:transparent;
+}
+
+
+
+/*=====================================
+  RESULTS STYLES 
+    ===================================*/
+.donars-section 
+{
+  background: url(../img/donars.jpg) no-repeat center center;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color:#fff;
+}
+
+.slide-custom 
+{
+  min-height:200px;
+  padding:100px 20px 100px 20px;
+  line-height:30px;
+}
+
+.donars-section h4 
+{
+  line-height:40px;
+}
+
+ .donars-section h4 i
+{
+  padding:5px;
+}
+ 
+/*==========================================
+   PORTFOLIO STYLES
+    =====================================================*/
+table 
+{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th 
+{
+  border: 1px solid #eff1f2;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) 
+{
+  background-color: #eff1f2;
+}
+
+#port-folio 
+{
+  padding-top: 80px; 
+  padding-bottom: 100px; 
+  background-color: #efefef; 
+  background: url(../img/port.jpg) no-repeat center center;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.overlay a,overlay a:hover
+{
+  color:#fff;
+  text-decoration:none;
+}
+
+#port-folio .overlay p > span 
+{
+  display:block;
+  padding-bottom:20px;
+}
+
+/*==========================================
+   CONTACT STYLES
+    =====================================================*/
+#contact 
+{
+  padding-top:80px;
+  background-color: #efefef;
+}
+
+#contact .form-control 
+{
+  background-color:transparent;
+  height:40px;
+}
+
+#contact  .div-trans button 
+{
+  background-color: #159238;
+}
+
+/*==========================================
+   FOOTER STYLES
+    =====================================================*/
+
+#footser-end 
+{
+  text-align:center;
+  background-color:#242222; 
+  color:#fff;
+  padding:10px;
+}
